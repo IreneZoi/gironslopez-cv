@@ -288,21 +288,15 @@
 %-------------------------------------------------------------------------------
 % Contact information
 
-\newcommand{\contact}[8]{
+\newcommand{\contact}[6]{
   \centering{
-    \begin{tabular}{r l r l}
-      \main{\ifswedish Adress \else Address \fi} & \descript{#1} &
-      \main{\ifswedish Hemsida \else Website \fi} & \descript{#5} \\
-
-      & \descript{#2} &
-      \main{\ifswedish Telefon \else Telephone \fi} & \descript{#6} \\
-
-      \main{\ifswedish Födelse \else Birth \fi} & \descript{#3} &
-      \main{\ifswedish E-post \else E-mail \fi} & \descript{#7} \\
-
-      & \descript{#4}
-      & \main{\ifswedish Medborgarskap \else Citizenship \fi} & \descript{#8} \\
-    \end{tabular}
+    \begin{tabular}{r l  l}
+      \main{\ifswedish Adress \else Address \fi} & \descript{#1} &  \descript{#2} \\
+     \main{\ifswedish E-post \else E-mail \fi} & \descript{#5} &   \descript{#6}  \\
+ 
+      \main{\ifswedish Telefon \else Telephone \fi} & \descript{#3} & 
+       \main{\ifswedish Telefon \else Skype \fi}  \descript{#4}  \\      
+      \end{tabular}
   }
 }
 
@@ -310,7 +304,7 @@
 % CV items
 
 \newcommand{\position}[4]{
-  \begin{tabular}{p{0.22\textwidth} p{0.75\textwidth}}
+  \begin{tabular}{p{0.2\textwidth} p{0.8\textwidth}}
     \when{#1} & \what{#2} \descript{•} \where{#3} \newline \descript{#4}
   \end{tabular}\\[-2mm]
 }
@@ -321,11 +315,11 @@
   \end{tabular}\\[-2mm]
 }
 
-\newcommand{\teaching}[4]{
-	\begin{tabular}{p{0.22\textwidth} p{0.75\textwidth}}
+\newcommand{\teaching}[3]{
+	\begin{tabular}{p{0.2\textwidth} p{0.8\textwidth}}
 		\when{#1} & \what{#2} %\descript{•}
-		\newline \where{#3}
-		\newline \descript{#4}
+		%\newline \where{#3}
+		\newline \descript{#3}
 	\end{tabular}\\[-2mm]
 }
 
