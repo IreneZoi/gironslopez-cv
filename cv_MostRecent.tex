@@ -1,0 +1,85 @@
+
+\documentclass{gironslopez-cv}
+\usepackage{upgreek}
+% Switches
+\swedishfalse
+\academictrue
+\picturefalse
+\numbersfalse
+
+\begin{document}
+  %---------------------------------------------------------------------------
+  % Update date
+  %
+  \lastupdated
+  %---------------------------------------------------------------------------
+  % Name and contact information
+  %
+  \input{sections/header}
+    \vskip 10pt
+  %---------------------------------------------------------------------------
+  % Summary
+  %
+  \input{sections/summary}
+  \vskip 10pt
+  %---------------------------------------------------------------------------
+  % Professional experience
+  %
+  \input{sections/employment}
+  %---------------------------------------------------------------------------
+  % Education
+  %
+  \input{sections/education}
+  %\newpage
+  %---------------------------------------------------------------------------
+  % Publications
+  %
+ % \input{sections/publications}
+  %---------------------------------------------------------------------------
+  % Awards
+  %
+  \input{sections/awards}
+  %---------------------------------------------------------------------------
+  % Teaching
+  %
+  \ifacademic
+    %\newpage
+    \input{sections/teaching}
+  \else
+  \fi
+   %---------------------------------------------------------------------------
+  % Skills
+  %
+  \input{sections/skills}
+   %---------------------------------------------------------------------------
+  % Other activities
+  %
+  \input{sections/activities}
+  %---------------------------------------------------------------------------
+  % Contacts for references
+  %
+  %\input{sections/referencecontact}
+
+  %---------------------------------------------------------------------------
+  % References
+  %
+ % \vfill
+  %\centering{
+    %\ifswedish
+      %\textit{Referenser finns tillgängliga på begäran.}
+    %\else
+      % \textit{References available on request.}
+    %\fi
+    %}
+    \newpage
+      %---------------------------------------------------------------------------
+  % Publications
+  %
+  \input{sections/publications}
+  %---------------------------------------------------------------------------
+  % Publications
+  %
+  \input{sections/conferences}
+  %---------------------------------------------------------------------------
+
+\end{document}
