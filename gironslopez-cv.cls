@@ -203,7 +203,7 @@
 % Subsection
 
 \titleformat{\subsection}{
-  \color{Gray}
+  \color{CadetBlue} %Gray
   \sffamily
   \scshape
   \bfseries
@@ -226,7 +226,7 @@
 % Titles
 
 \newcommand{\where}[1]{
-  \color{Gray}
+  \color{CadetBlue} %Gray
   \mdseries
   \selectfont #1
 }
