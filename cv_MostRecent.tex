@@ -40,6 +40,10 @@
   %
   \input{sections/awards}
   %---------------------------------------------------------------------------
+  % Other activities
+  %
+  \input{sections/leadership}
+  %---------------------------------------------------------------------------
   % Teaching
   %
   \ifacademic
@@ -47,14 +51,19 @@
     \input{sections/teaching}
   \else
   \fi
+  %---------------------------------------------------------------------------
+  % Outreach and DEI activities
+  %
+  \ifacademic
+    %\newpage
+    \input{sections/outreachactivities}
+  \else
+  \fi
    %---------------------------------------------------------------------------
   % Skills
   %
   \input{sections/skills}
-   %---------------------------------------------------------------------------
-  % Other activities
-  %
-  \input{sections/activities}
+
   %---------------------------------------------------------------------------
   % Contacts for references
   %
