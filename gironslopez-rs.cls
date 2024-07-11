@@ -122,7 +122,7 @@
 % Text and paragraph formatting
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0pt}
+\setlength{\parskip}{10pt}
 
 \linespread{1.1}
 
