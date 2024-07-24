@@ -5,7 +5,7 @@
 \swedishfalse
 \academictrue
 \picturefalse
-\numbersfalse
+\numberstrue
 
 \begin{document}
   %---------------------------------------------------------------------------
@@ -40,21 +40,29 @@
   %
   \input{sections/awards}
   %---------------------------------------------------------------------------
+  % Other activities
+  %
+  \input{sections/leadership}
+  %---------------------------------------------------------------------------
   % Teaching
+  %
+
+  \newpage
+    \input{sections/teaching}
+
+  %---------------------------------------------------------------------------
+  % Outreach and DEI activities
   %
   \ifacademic
     %\newpage
-    \input{sections/teaching}
+    \input{sections/outreachactivities}
   \else
   \fi
    %---------------------------------------------------------------------------
   % Skills
   %
   \input{sections/skills}
-   %---------------------------------------------------------------------------
-  % Other activities
-  %
-  \input{sections/activities}
+
   %---------------------------------------------------------------------------
   % Contacts for references
   %
@@ -71,12 +79,12 @@
       % \textit{References available on request.}
     %\fi
     %}
-    \newpage
       %---------------------------------------------------------------------------
   % Publications
   %
   \input{sections/publications}
   %---------------------------------------------------------------------------
+%  \newpage
   % Publications
   %
   \input{sections/conferences}
