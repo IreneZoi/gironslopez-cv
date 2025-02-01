@@ -194,7 +194,7 @@
   \sffamily
   \scshape
   \bfseries
-  \fontsize{18pt}{20pt}
+  \fontsize{14pt}{15pt}
   \selectfont
   \raggedright
 }{}{0em}{}
@@ -207,7 +207,7 @@
   \sffamily
   \scshape
   \bfseries
-  \fontsize{14pt}{16pt}
+  \fontsize{12pt}{12pt}
   \selectfont
   \raggedright
 }{}{0em}{}
