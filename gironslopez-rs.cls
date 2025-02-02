@@ -271,7 +271,7 @@
 \newcommand{\letter}[1]{
   \color{text}
   \mdseries
-  \fontsize{11pt}{12pt}
+  \fontsize{10pt}{11pt}
   \selectfont #1
 }
 
@@ -297,6 +297,21 @@
 
 \newcommand{\contact}[6]{
   \centering{
+    \begin{tabular}{r l  l}
+      \main{\ifswedish Adress \else Address \fi} & \descript{#1} &  \descript{#2} \\
+     \main{\ifswedish E-post \else E-mail \fi} & \descript{#5} &   \descript{#6}  \\
+ 
+      \main{\ifswedish Telefon \else Telephone \fi} & \descript{#3} & 
+       \main{\ifswedish Telefon \else Skype \fi}  \descript{#4}  \\      
+      \end{tabular}
+  }
+}
+
+% Contact information - letter
+
+\newcommand{\contactletter}[6]{
+  \centering{
+  \normalsize
     \begin{tabular}{r l  l}
       \main{\ifswedish Adress \else Address \fi} & \descript{#1} &  \descript{#2} \\
      \main{\ifswedish E-post \else E-mail \fi} & \descript{#5} &   \descript{#6}  \\
@@ -366,6 +381,14 @@
     \rule{\textwidth}{0.5pt}
   }
 }
+\newcommand{\headerline}{
+  \color{focus}
+  \vspace{3pt}
+  \makebox[\linewidth]{
+    \rule{\textwidth}{0.2pt}
+  }
+}
+
 
 %===============================================================================
 % BIBLIOGRAPHY - Use bold face for my name
