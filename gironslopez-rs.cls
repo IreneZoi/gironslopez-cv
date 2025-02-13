@@ -124,7 +124,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
 
-\linespread{1.1}
+\linespread{1}
 
 \titlespacing{\section}{0pt}{2pt}{0pt}
 \titlespacing{\subsection}{0pt}{4pt}{0pt}
