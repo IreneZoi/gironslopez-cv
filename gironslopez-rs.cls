@@ -302,7 +302,7 @@
      \main{\ifswedish E-post \else E-mail \fi} & \descript{#5} &   \descript{#6}  \\
  
       \main{\ifswedish Telefon \else Telephone \fi} & \descript{#3} & 
-       \main{\ifswedish Telefon \else Skype \fi}  \descript{#4}  \\      
+      \main{\ifswedish Telefon \else  \fi}  \descript{#4}  \\      
       \end{tabular}
   }
 }
