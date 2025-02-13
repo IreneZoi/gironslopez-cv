@@ -122,12 +122,12 @@
 % Text and paragraph formatting
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{10pt}
+\setlength{\parskip}{5pt}
 
 \linespread{1.1}
 
-\titlespacing{\section}{0pt}{10pt}{0pt}
-\titlespacing{\subsection}{0pt}{5pt}{0pt}
+\titlespacing{\section}{0pt}{2pt}{0pt}
+\titlespacing{\subsection}{0pt}{4pt}{0pt}
 
 %-------------------------------------------------------------------------------
 % Color
@@ -194,7 +194,7 @@
   \sffamily
   \scshape
   \bfseries
-  \fontsize{14pt}{15pt}
+  \fontsize{13pt}{14pt}
   \selectfont
   \raggedright
 }{}{0em}{}
@@ -207,7 +207,7 @@
   \sffamily
   \scshape
   \bfseries
-  \fontsize{12pt}{12pt}
+  \fontsize{11pt}{11pt}
   \selectfont
   \raggedright
 }{}{0em}{}
