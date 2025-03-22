@@ -4,29 +4,49 @@
 \descript{
 \begin{flushleft}
 \setlength{\parindent}{8pt}
-Particle physics experiments are delivering significant results testing the predictions of the Standard Model (SM) and exploring its extensions. The next years are crucial to make sure we can continue addressing the remaining open questions of the universe in an effective way. As a Wilson Fellow, I would ensure that we exploit the full potential of the upcoming High Luminosity LHC (HL-LHC) era and design the next generation of collider experiments by working on three main areas: 
+Particle physics experiments are delivering significant results testing the predictions of the Standard Model (SM) and exploring its extensions. The next years are crucial to make sure we can continue addressing the remaining open questions of the universe in an effective way. In this position, I would ensure that we exploit the full potential of the upcoming High Luminosity LHC (HL-LHC) era and design the next generation of collider experiments by working on three main areas: 
 \begin{itemize}
-\item Exploring the electroweak and Higgs sectors through Vector Boson Scattering (VBS) processes: Measuring polarization in jets, observing VBS in the $\ell\nu$qq decay channel, and constraining SMEFT operators
-\item Delivering the CMS Outer Tracker for the Phase-2 upgrade and ensuring the collection of high-quality data at the HL-LHC
+\item Delivering the ATLAS Inner Tracker for the Phase-2 upgrade and ensuring the collection of high-quality data at the HL-LHC
 \item Designing extremely low-power and low-mass tracking detectors for future colliders using advanced microelectronics techniques
+\item Exploring the electroweak and Higgs sectors through Vector Boson Scattering (VBS) processes: Measuring polarization in jets, observing VBS in the $\ell\nu$qq decay channel, and constraining SMEFT operators
 \end{itemize}
 
-%to These studies have opened the path to even more exciting research in the upcoming years. The Higgs boson has been discovered, but its properties, still under investigation, could show discrepancies from the SM expectations. Hints to new physics, addressing the remaining open questions, can be found by performing precise SM measurements and exploring the broad set of Beyond the Standard Model (BSM) scenarios, both in the context of specific models and effective field theory (EFT) frameworks. In parallel, the use of cutting-edge technology in the detectors and the need to always improve their performance has driven innovation with applications extending far beyond high-energy physics.
-%
-%My research is dedicated to the development of advanced detectors that enable unprecedented exploration of collider physics while fostering new applications across diverse domains. I am passionate about unraveling the complexities of the SM and its extensions through meticulous and innovative studies.
+\vskip 10pt
+\section{Silicon detector development}
+\vskip 5pt
 %%\vskip 4pt
-%\section{Investigating the Standard Model open questions}
-%%\vskip 4pt
-%To address the open questions of the Standard Model, I have been both pursuing searches for particles predicted by promising BSM theories and tackling an EFT approach.
-%
-%Several theoretical models address the shortcomings of the SM predicting the existence of new particles with masses of the order of the TeV that can be produced at colliders. I developed a method that allows, with one single search, to probe many proposed extensions and can be further adapted to test even more exotic scenarios\footnote{CMS Collaboration, {\em Search for new heavy resonances decaying to WW, WZ, ZZ, WH, or ZH boson pairs in the all-jets final state in proton-proton collisions at $\sqrt{s}=13$ TeV}, Phys. Lett. B 844 (2023) 137813, \href{http://dx.doi.org/10.1016/j.physletb.2023.137813}{doi.:10.1016/j.physletb.2023.137813}}. Moreover, the method’s flexibility permitted to perform the first combined search for heavy resonances decaying in hadronic WW, WZ, ZZ, WH and ZH final states. The bosons produced in the decay of these massive resonances have a high momentum. Thus, they decay into two collimated quarks, and the sprays of particles produced in the quarks' hadronization are merged into a single large radius jet. Therefore, jet substructure techniques are employed to identify jets originating from vector bosons or containing b-quark pairs from jets stemming from a single quark or gluon. Algorithms based on machine learning (ML) techniques are used to achieve the highest discriminating power. This study’s background estimation and signal extraction procedures rely on a multidimensional maximum likelihood fit to the masses of the jets originating from the bosons and their combined dijet system. The signal is resonant in the considered dimensions and a three-dimensional search for a bump on smoothly falling backgrounds is performed. A decorrelation method has been validated to prevent ML-based algorithms from introducing sculpting in the shape of the jet mass used as observable in the fit.
-%%\vskip 4pt
-%Hints to new physics, addressing the remaining SM open questions, can be found by performing precise SM measurements and exploring the broad set of Beyond the Standard Model (BSM) scenarios, both in the context of specific models and effective field theory (EFT) frameworks.
-%Vector boson scattering (VBS) processes at collider experiments are crucial for investigating the electroweak (EW) sector. VBS is sensitive to new physics at energy scales beyond the direct reach of the Large Hadron Collider (LHC), allowing researchers to probe potential deviations from the SM. VBS processes involve the self-interactions of gauge bosons through triple and quartic gauge couplings, central features of the SM's non-Abelian gauge structure. Changes in these couplings could lead to observable effects, such as increased cross-sections in high-energy VBS production, offering clues about BSM physics.
+During my academic journey, I focused on silicon detector technologies, including planar and 3D pixel sensors, strip sensors, and monolithic sensors. My work included evaluating the radiation hardness and spatial resolution of small-pitch pixel sensors, a key component of the CMS Phase-2 Inner Tracker upgrade. Currently, I am strongly committed to the CMS Outer Tracker  (OT) Phase-2 upgrade and engaged with the R\&D of Monolithic Active Pixel Sensors (MAPS), which could play a key role in future collider experiments.
+\vskip 5pt
+\subsection{Outer Tracker Phase-2 upgrade}
+\vskip 4pt 
+In the coming months, the  collaboration will enter a critical phase of detector developments for the HL-LHC. I am actively involved in the Outer Tracker (OT) upgrade for Phase-2~\cite{[1]}. For the first time at a hadron collider, this new tracker will provide tracking information to the Level-1 (L1) trigger—an unprecedented feat in a high-rate environment. This demands fast processing, hardware-level pattern recognition, and high data throughput within strict latency limits. Overcoming these challenges enables sustainable trigger rates while preserving full physics potential. %, ensuring sensitivity to rare and previously inaccessible signatures. 
+The OT will be composed of p$_{\mathrm{T}}$-modules, which provide a rough transverse momentum measurement to the L1 trigger. These modules consist of two closely spaced silicon sensors read out by front-end Application Specific Integrated Circuits (ASICs), which correlate hits in the sensors to create short track segments known as ``stubs.'' The modules come in two types: strip-strip (2S) and pixel-strip (PS), each with distinct sensor and ASICs  configurations. % and multiple ASICs.
+
+\textbf{Current effort}
+I am deeply involved in module testing and the quantitative understanding of prototypes, which brought improvements in the final design. I led successful testbeam campaigns to evaluate module functionality, verify the stub identification procedure and compare the behavior of non-irradiated and irradiated sensors. As a member of a dedicated task force, I solved critical module issues, achieving stable performance at the operating temperature of -35$^{\circ}$C and correct stubs readout for all module flavors. Moreover, I am developing calibrations and quality assurance procedures. In the process, I have supervised students and postdocs from both U.S. and international institutions, fostering collaboration.
+
+\textbf{Building the Tracker}
+Argonne is a key assembly and testing center for the ATLAS Inner Tracker (ITk) Upgrade, with large-scale module production ramping up through 2026 and 2027. I have extensive experience in module testing, developing calibration tools, and preparing facilities for mass production. Moreover, the ATLAS and CMS upgraded detectors share common needs for the development of low-mass carbon structures that provide mechanical stability and for the implementation of CO$_2$ cooling systems. 
+As production concludes, detector integration and commissioning will ramp up, followed by more than 10 years of data taking. My decade-long experience with CMS Phase-2 tracker upgrades has prepared me to contribute to the successful completion of the ATLAS ITk, ensuring its readiness for the HL-LHC and its crucial role in advancing the ATLAS physics program.
+
+{\bf The Upgraded Tracker is expected to be taking data until the 2040s.} My knowledge of the system will allow me to lead detector operation and commissioning, ensuring the collection of high quality data in the harsh environment of the HL-LHC and forming the next generation of experts.
+
+\vskip 5pt 
+\subsection{Monolithic Active Pixel Sensors R\&D}
+\vskip 4pt
+Monolithic Active Pixel Sensors (MAPS) are a highly promising technology with vertex reconstruction, tracking, and calorimetry applications. They offer extremely high granularity over large areas through reticle stitching, combining low power density with cost-effectiveness. MAPS are notable for their minimal mass, crucial for precision in high-energy physics experiments.
+Current developments focus on enhancing spatial resolution, timing, rate capabilities, and radiation hardness. Additionally, MAPS development is closely linked with advancements in ASICs, optimizing overall detector performance through co-design procedures. {\bf Thanks to their appealing properties, MAPS could be ideal for experiments at a muon collider or at CERN's Future Circular Collider (FCC).}
+
+\textbf{Current effort}
+I recently became involved in the R\&D for these versatile detectors that could have a variety of applications in future collider experiments. The studies focus on the ARCADIA prototype~\cite{[2]}, featuring a patterned backside to achieve uniform full depletion over thicknesses of few hundreds microns. Using a test setup present at Fermilab, that features a precision timing laser, we aim to measure charge collection efficiency and study the prototype characteristics.
+
+\textbf{New MAPS for future experiments}
+At Argonne, {\bf I would play a leading role in this effort, bringing my extensive experience in silicon detector R\&D}, contributing to the design and optimization of next-generation MAPS sensors. Collaborating with the laboratory {\bf microelectronics group}—key assets in this initiative—will ensure a strong foundation for cutting-edge advancements. 
+
 \vskip 10pt
 \section{VBS measurements to probe EFT and expand the Higgs sector}
 \vskip 5pt
-LHC experiments explore various approaches to uncover Beyond the Standard Model (BSM) physics. During my studies, I focused on direct searches for new particles predicted by SM extensions. I developed a method that probes multiple theoretical models within a single search and adapts to more exotic scenarios, leading the first combined search for heavy resonances decaying to two vector bosons or a Higgs and vector boson, with unprecedented sensitivity~\cite{[1]}. The search targeted hadronic final states in the boosted regime, where the high-momentum bosons decay into collimated quark pairs, and the sprays of particles produced in the quarks' hadronization (jets) are merged into a single large radius jet.%and precise measurement of processes predicted by the  Following the second approach, my research over the last few years has been aimed at finding new BSM signals with data collected by the CMS experiment.
+LHC experiments explore various approaches to uncover Beyond the Standard Model (BSM) physics. During my studies, I focused on direct searches for new particles predicted by SM extensions. I developed a method that probes multiple theoretical models within a single search and adapts to more exotic scenarios, leading the first combined search for heavy resonances decaying to two vector bosons or a Higgs and vector boson, with unprecedented sensitivity~\cite{[3]}. The search targeted hadronic final states in the boosted regime, where the high-momentum bosons decay into collimated quark pairs, and the sprays of particles produced in the quarks' hadronization (jets) are merged into a single large radius jet.%and precise measurement of processes predicted by the  Following the second approach, my research over the last few years has been aimed at finding new BSM signals with data collected by the CMS experiment.
 
 New physics can emerge also from precise measurements of SM observables that could reveal deviations from the predictions. Discrepancies in key observables may hint at BSM effects, even in the absence of new particle discoveries. The Effective Field Theory (EFT) framework provides a model-independent way to parametrize potential differences from the SM. These effects can manifest as deviations in cross-sections, angular distributions, or polarization observables, providing indirect evidence of new physics at energy scales far beyond what the LHC can directly probe.
 The EFT description of the SM (SMEFT) introduces the following effective Lagrangian:
@@ -39,62 +59,29 @@ VBS is one of the few processes probing gauge boson self-interactions through QG
 Moreover, it remains an open question whether the Higgs boson alone ensures the unitarization of longitudinal vector boson scattering at all energies. The production of longitudinally polarized vector bosons is rare and the HL-LHC era will provide the necessary data for a more detailed study. However, techniques to analyze W boson polarization in hadronic decays are still lacking and need to be developed.
 
 \textbf{Current effort}
-A recent CMS publication reported evidence for the production of WV bosons in association with two jets, in the case where the W boson decays leptonically and the V boson (with V either a W or a Z boson) decays hadronically~\cite{[2]}. I am now leading a search for the anomalous electroweak production of this process. The latest CMS result~\cite{[3]} was based on 35.9~fb$^{-1}$ of data collected in 2016. This search, being approved by the CMS collaboration at the time of writing, will now benefit from the full 138~fb$^{-1}$ of data collected in the 2016--2018 data taking period, an improved statistical model, as well as more precise calculations of the dimension-8 EFT operators. {\bf As a Wilson Fellow, with my experience in this channel, I am well positioned to guide a team extending the scope of these studies as presented below.}
+A recent CMS publication reported evidence for the production of WV bosons in association with two jets, in the case where the W boson decays leptonically and the V boson (with V either a W or a Z boson) decays hadronically~\cite{[4]}. I am now leading a search for the anomalous electroweak production of this process. The latest CMS result~\cite{[5]} was based on 35.9~fb$^{-1}$ of data collected in 2016. This search, being approved by the CMS collaboration at the time of writing, will now benefit from the full 138~fb$^{-1}$ of data collected in the 2016--2018 data taking period, an improved statistical model, as well as more precise calculations of the dimension-8 EFT operators. {\bf As a Wilson Fellow, with my experience in this channel, I am well positioned to guide a team extending the scope of these studies as presented below.}
 
 \textbf{Observation of VBS in the $\ell\nu$qq decay channel} With the addition of up to 380~fb$^{-1}$ of data from Run 3 to the 138~fb$^{-1}$ collected in Run 2, the first observation of VBS production of WV bosons in the semi-leptonic final states is well within reach.
 
 \textbf{Longitudinal scattering amplitude and polarization in boosted W $\to q\bar{q}$ \ jets}
 Measurements in the VBS channel combined with polarization studies of the vector bosons are one of the main objectives of the precision LHC physics program, providing a powerful probe of the EW sector and the one of Higgs boson.
-The measurement of the  W$^L_+$W$^L_+$ scattering cross-section is highly dependent on the HWW couplings~\cite{[4]} offering a complementary approach to constraining this fundamental interaction.
-I aim to study VBS processes in semileptonic final states, focusing on jet polarization—an aspect that remains largely unexplored. So far, polarization studies have been limited to fully leptonic channels, where new techniques have improved predictions for the HL-LHC. This measurement is challenging due to the small VBS cross-section, but the higher branching fraction of W bosons decaying to quarks enhances the likelihood of measuring polarization before the HL-LHC and facilitates preparations for high-statistics studies there. Since deviations from the SM are expected in the higher energy tails, this measurement would also be performed in the boosted regime and it will benefit from the higher center of mass energy at the HL-LHC. As a Wilson Fellow I plan to lead this effort, overcoming the long standing challenges of reconstructing jets originating from transversely polarized W bosons~\cite{[5]}, and developing dedicated machine learning (ML) techniques to explore polarization in jets.
-\textbf{This study stands to benefit from Fermilab’s expertise in SM physics, jet physics and ML}, expanding its applications. This intersection presents a stimulating opportunity to apply cutting-edge jet tagging techniques to enhance our understanding of the EW and Higgs sectors.
+The measurement of the  W$^L_+$W$^L_+$ scattering cross-section is highly dependent on the HWW couplings~\cite{[6]} offering a complementary approach to constraining this fundamental interaction.
+I aim to study VBS processes in semileptonic final states, focusing on jet polarization—an aspect that remains largely unexplored. So far, polarization studies have been limited to fully leptonic channels, where new techniques have improved predictions for the HL-LHC. This measurement is challenging due to the small VBS cross-section, but the higher branching fraction of W bosons decaying to quarks enhances the likelihood of measuring polarization before the HL-LHC and facilitates preparations for high-statistics studies there. Since deviations from the SM are expected in the higher energy tails, this measurement would also be performed in the boosted regime and it will benefit from the higher center of mass energy at the HL-LHC. As a Wilson Fellow I plan to lead this effort, overcoming the long standing challenges of reconstructing jets originating from transversely polarized W bosons~\cite{[7]}, and developing dedicated machine learning (ML) techniques to explore polarization in jets.
+\textbf{This study stands to benefit from Argonne expertise in SM physics, jet physics and ML}, expanding its applications. This intersection presents a stimulating opportunity to apply cutting-edge jet tagging techniques to enhance our understanding of the EW and Higgs sectors.
 A further complication arises from the {\bf lack of a fully accurate treatment of polarization effects in existing simulations of V bosons decaying to quarks}. I look forward to the collaboration with the {\bf theoretical community} to address this challenge.  
 Moreover, this study could be {\bf extended beyond the measurement of the SM cross-section of longitudinally and transversely polarized W bosons, to include a search for anomalous couplings}, providing a unique insight into how different operators are affected by the two polarization components.
 {\bf These processes are very rare, and their measurement is primarily limited by statistical uncertainties. Access to the Run 3 dataset, followed by the large HL-LHC dataset, will enable a precise measurement of these processes and more sensitivity for discovery.}
 
 \textbf{General EFT interpretation}
 %\textbf{Combination of dimension-6 and dimension-8 operators} 
-While dimension-8 operators have gained attention in VBS studies, dimension-6 operators have been more extensively explored in other contexts. As a consequence, separate studies search for dimension-8 and dimension-6 operators in the same VBS $\ell\nu$qq final state. A natural next step is to combine these two measurements to obtain a more comprehensive set of constraints on the Wilson coefficients. This will give the opportunity to collaborate with the Fermilab theoretical group to achieve a proper description of the interplay between dimension-6 and dimension-8 operators.
+While dimension-8 operators have gained attention in VBS studies, dimension-6 operators have been more extensively explored in other contexts. As a consequence, separate studies search for dimension-8 and dimension-6 operators in the same VBS $\ell\nu$qq final state. A natural next step is to combine these two measurements to obtain a more comprehensive set of constraints on the Wilson coefficients. This will give the opportunity to collaborate with the theoretical group to achieve a proper description of the interplay between dimension-6 and dimension-8 operators.
 
-Searches for higher-dimension operators within a single channel, such as the ones presented above, probe multiple operators but typically impose constraints under the assumption that only one operator is active at a time, assuming that other coefficients are fixed to zero. This approach overlooks the fact that BSM physics is more likely to modify multiple operators simultaneously. To constrain multiple Wilson coefficients concurrently, given the large number of parameters, it is essential to combine measurements from several channels. Initial efforts in this direction have begun~\cite{[6]} but remain limited to dimension-6 operators and a restricted set of measurements. {\bf The VBS production of vector bosons processes provides access to all\footnote{All 20 dimension-8 operators from the latest LHC EFT Working Group Note, \href{https://arxiv.org/abs/2411.02483v1}{
+Searches for higher-dimension operators within a single channel, such as the ones presented above, probe multiple operators but typically impose constraints under the assumption that only one operator is active at a time, assuming that other coefficients are fixed to zero. This approach overlooks the fact that BSM physics is more likely to modify multiple operators simultaneously. To constrain multiple Wilson coefficients concurrently, given the large number of parameters, it is essential to combine measurements from several channels. Initial efforts in this direction have begun~\cite{[8]} but remain limited to dimension-6 operators and a restricted set of measurements. {\bf The VBS production of vector bosons processes provides access to all\footnote{All 20 dimension-8 operators from the latest LHC EFT Working Group Note, \href{https://arxiv.org/abs/2411.02483v1}{
 arXiv:2411.02483}} dimension-8 operators. Including it in a combined SMEFT interpretation would significantly enhance our ability to stringently constrain a broad range of Wilson coefficients of new physics.}
 
 
 
-\vskip 10pt
-\section{Silicon detector development}
-\vskip 5pt
-%%\vskip 4pt
-During my academic journey, I focused on silicon detector technologies, including planar and 3D pixel sensors, strip sensors, and monolithic sensors. My work included evaluating the radiation hardness and spatial resolution of small-pitch pixel sensors, a key component of the CMS Phase-2 Inner Tracker upgrade. Currently, I am strongly committed to the CMS Outer Tracker  (OT) Phase-2 upgrade and engaged with the R\&D of Monolithic Active Pixel Sensors (MAPS), which could play a key role in future collider experiments.
-\vskip 5pt
-\subsection{Outer Tracker Phase-2 upgrade}
-\vskip 4pt 
-In the coming months, the CMS collaboration will enter a critical phase of detector developments for the HL-LHC. I am actively involved in the Outer Tracker (OT) upgrade for Phase-2~\cite{[7]}. For the first time at a hadron collider, this new tracker will provide tracking information to the Level-1 (L1) trigger—an unprecedented feat in a high-rate environment. This demands fast processing, hardware-level pattern recognition, and high data throughput within strict latency limits. Overcoming these challenges enables sustainable trigger rates while preserving full physics potential. %, ensuring sensitivity to rare and previously inaccessible signatures. 
-The OT will be composed of p$_{\mathrm{T}}$-modules, which provide a rough transverse momentum measurement to the L1 trigger. These modules consist of two closely spaced silicon sensors read out by front-end Application Specific Integrated Circuits (ASICs), which correlate hits in the sensors to create short track segments known as ``stubs.'' The modules come in two types: strip-strip (2S) and pixel-strip (PS), each with distinct sensor and ASICs  configurations. % and multiple ASICs.
 
-\textbf{Current effort}
-I am deeply involved in module testing and the quantitative understanding of prototypes, which brought improvements in the final design. I led successful testbeam campaigns to evaluate module functionality, verify the stub identification procedure and compare the behavior of non-irradiated and irradiated sensors. As a member of a dedicated task force, I solved critical module issues, achieving stable performance at the operating temperature of -35$^{\circ}$C and correct stubs readout for all module flavors. Moreover, I am developing calibrations and quality assurance procedures. In the process, I have supervised students and postdocs from both U.S. and international institutions, fostering collaboration.
-
-\textbf{Building the Outer Tracker}
-The Silicon Detector facility (SiDet) at Fermilab serves as an assembly and testing center. Extensive production of thousands of modules is starting, continuing in 2026 and 2027. I have been working extensively in developing testing procedures and preparing the facility for these stages. At Fermilab, more than 2000 modules will be produced. To test this large amount of modules it is expected that several students and postdocs from other institutes will come to the lab to assist. With my extensive experience with module testing and designing the tools and calibration that will be used, I plan to have a leading role in training the students and supervising these activities. 
-After that, detector integration and commissioning activities will ramp up at the end of this decade. As a Wilson Fellow I aim to ensure the timely completion of the new tracker, crucial to the achievement of the CMS physics program at the HL-LHC.
-\textbf{I have a decade long experience on the Phase-2 upgrade of the CMS tracking detectors, as Wilson Fellow I would have the unique opportunity to see my efforts come together in the new detector.} 
-
-{\bf The Outer Tracker is expected to be taking data until the 2040s.} My knowledge of the system will allow me to lead detector operation and commissioning, ensuring the collection of high quality data in the harsh environment of the HL-LHC and forming the next generation of experts.
-
-\vskip 5pt 
-\subsection{Monolithic Active Pixel Sensors R\&D}
-\vskip 4pt
-Monolithic Active Pixel Sensors (MAPS) are a highly promising technology with vertex reconstruction, tracking, and calorimetry applications. They offer extremely high granularity over large areas through reticle stitching, combining low power density with cost-effectiveness. MAPS are notable for their minimal mass, crucial for precision in high-energy physics experiments.
-Current developments focus on enhancing spatial resolution, timing, rate capabilities, and radiation hardness. Additionally, MAPS development is closely linked with advancements in ASICs, optimizing overall detector performance through co-design procedures. {\bf Thanks to their appealing properties, MAPS could be ideal for experiments at a muon collider or at CERN's Future Circular Collider (FCC).}
-
-\textbf{Current effort}
-I recently became involved in the R\&D for these versatile detectors that could have a variety of applications in future collider experiments. The studies focus on the ARCADIA prototype~\cite{[8]}, featuring a patterned backside to achieve uniform full depletion over thicknesses of few hundreds microns. Using a test setup present at Fermilab, that features a precision timing laser, we aim to measure charge collection efficiency and study the prototype characteristics.
-
-\textbf{New MAPS for future experiments}
-Fermilab is working to secure a contract with SkyWater for a U.S.-based MAPS foundry, presenting an exciting opportunity to advance the semiconductor sector and strengthen domestic capabilities in detector technology. However, to achieve a cost-effective and efficient device production, the development of a robust simulation setup for design optimization is essential. This could involve the use of Artificial Intelligence (AI) techniques to learn from the trial approaches used in previous development attempts by our international collaborators. %In this We cannot use trial and error approach as CERN because it is too expensive. We need to have a solid model of the wafer we want. Possible improvements to current design are a thicker epilayer to have a higher gain and so better timing. We need simulation 
-%We could integrate AI in the simulation to factor in the learning curve from CERN 
-At Fermilab, {\bf I would play a leading role in this effort, bringing my extensive experience in silicon detector R\&D}, contributing to the design and optimization of next-generation MAPS sensors. Collaborating with the laboratory {\bf microelectronics group and AI experts}—key assets in this initiative—will ensure a strong foundation for cutting-edge advancements. Additionally, \textbf{the newly formed Collider Physics Division at Fermilab provides the ideal environment to shape detector designs for future collider experiments, bridging technological development with the needs of next-generation physics discoveries.}
 
 %\vspace{\baselineskip}
 
@@ -112,31 +99,34 @@ At Fermilab, {\bf I would play a leading role in this effort, bringing my extens
 
 \vskip 10pt
 \begin{thebibliography}{9}
+
 \bibitem{[1]}
+CMS Collaboration, {\em The Phase-2 Upgrade of the CMS Tracker}, Technical Report CERN-LHCC-2017-009, \href{https://cds.cern.ch/record/2272264?ln=en}{CMS-TDR-014}
+
+\bibitem{[2]}
+Coralie Neubueser et al., {\em Sensor Design Optimization of Innovative Low-Power, Large Area FD-MAPS for HEP and Applied Science}, Front. Phys., Sec. Radiation Detectors and Imaging
+Volume 9 - 2021, \href{https://doi.org/10.3389/fphy.2021.625401}{doi:10.3389/fphy.2021.625401}
+
+
+\bibitem{[3]}
 CMS Collaboration, {\em Search for new heavy resonances decaying to WW, WZ, ZZ, WH, or ZH boson pairs in the all-jets final state in proton-proton collisions at $\sqrt{s}=13$ TeV},
 \href{http://dx.doi.org/10.1016/j.physletb.2023.137813}{10.1016/j.physletb.2023.137813}.
 
-\bibitem{[2]}
+\bibitem{[4]}
 CMS Collaboration, {\em Evidence for WW/WZ vector boson scattering in the decay channel $\ell\nu$qq produced in association with two jets in proton-proton collisions at $\sqrt{s}$ = 13 TeV}, Phys. Lett. B 834 (2022) 137438, \href{https://doi.org/10.1016/j.physletb.2022.137438}{doi.:10.1016/j.physletb.2022.137438}
 
-\bibitem{[3]}
+\bibitem{[5]}
 CMS Collaboration, {\em Search for anomalous electroweak production of vector boson pairs in association with two jets in proton-proton collisions at 13 TeV}, Phys. Lett. B, 798 (2019), 134985, \href{https://doi.org/10.1016/j.physletb.2019.134985}{doi:10.1016/j.physletb.2019.134985}
 
-\bibitem{[4]}
+\bibitem{[6]}
 Michal Szleper, {\em The Higgs boson and the physics of WW scattering before and after Higgs discovery}, \href{https://arxiv.org/pdf/1412.8367}{arXiv:1412.8367}
 
 
-\bibitem{[5]}
+\bibitem{[7]}
 CMS Collaboration, {\em Identification techniques for highly boosted W bosons that decay into hadrons}, JHEP 12 (2014) 017, \href{https://link.springer.com/article/10.1007/JHEP12(2014)017}{doi:/10.1007/JHEP12(2014)017}
 
-\bibitem{[6]}
+\bibitem{[8]}
 CMS Collaboration, {\em Combined effective field theory interpretation of Higgs boson, electroweak vector boson, top quark, and multi-jet measurements}, CMS-PAS-SMP-24-003, \href{https://cds.cern.ch/record/2911229/}{CMS-PAS-SMP-24-003}
 
-\bibitem{[7]}
-CMS Collaboration, {\em The Phase-2 Upgrade of the CMS Tracker}, Technical Report CERN-LHCC-2017-009, \href{https://cds.cern.ch/record/2272264?ln=en}{CMS-TDR-014}
-
-\bibitem{[8]}
-Coralie Neubueser et al., {\em Sensor Design Optimization of Innovative Low-Power, Large Area FD-MAPS for HEP and Applied Science}, Front. Phys., Sec. Radiation Detectors and Imaging
-Volume 9 - 2021, \href{https://doi.org/10.3389/fphy.2021.625401}{doi:10.3389/fphy.2021.625401}
 \end{thebibliography}
 }
