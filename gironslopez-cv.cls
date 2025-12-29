@@ -323,7 +323,7 @@
 }
 
 \newcommand{\teaching}[3]{
-	\begin{tabular}{p{0.2\textwidth} p{0.8\textwidth}}
+	\begin{tabular}{p{0.15\textwidth} p{0.85\textwidth}}
 		\when{#1} & \what{#2} %\descript{•}
 		%\newline \where{#3}
 		\newline \descript{#3}
